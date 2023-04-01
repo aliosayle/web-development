@@ -1,21 +1,65 @@
-#menu {
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
-  
-  #menu ul {
-    list-style: none;
+header{
+    background-color: rgb(244, 123, 193);
+    color: lightgreen;
+}
+
+html {
     margin: 0;
     padding: 0;
   }
   
-  #menu li {
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a:hover{
+    color: red;
+    text-decoration: underline;
+  }
+
+  a:active{
+    color: green;
+    text-decoration: dashed;
+  }
+
+  .white{
+    color: white;
+  }
+
+  .blue{
+    color: lightblue;
+  }
+
+  hr{
+    color: lightgreen;
+    border: 2px solid lightgreen;
+    
+  }
+
+  .button-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .button-list li{
     display: inline-block;
     margin-right: 10px;
   }
-  
-  #menu li a {
-    color: #333;
+
+  .button-list li a{
+    display: block;
+    padding: 10px 20px;
+    background-color: lightpink;
+    box-shadow: 2px 2px 2px black;
     text-decoration: none;
+    border-radius: 5px;
+    color: white;
+
+  }
+
+  .button-list li a:hover{
+    background-color: pink;
   }
   
